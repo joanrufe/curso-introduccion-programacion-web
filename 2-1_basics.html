@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Curso desarrollo web - CSS Basics</title>
+    <meta charset="UTF-8" />
+    <link href="./styles/styles.css"></link>
+    <style>
+      #caja1 {
+        background-color: red;
+      }
+      .caja {
+        width: 50px;
+        height: 50px;
+        border: 1px solid blue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Empezando con CSS</h1>
+    <p>
+      La sintaxis de CSS se compone de un selector y un bloque de estilos. A
+      todos los elementos que coincidan con el selector se les aplicará el
+      bloque de estilos.
+    </p>
+    <pre>
+    pre {
+      background: gray;
+      padding: 10px 0;
+      color: white;
+      max-width: 500px;
+      font-weight: bold;
+    }
+
+    #caja1 {
+      background-color: red;
+    }
+
+    .caja {
+      width: 50px;
+      height: 50px;
+      border: 1px solid blue;
+    }</pre
+    >
+    <pre>
+      &lt;div id="caja1" class="caja">&lt;/div>
+      &lt;div class="caja">&lt;/div></pre
+    >
+    <p>
+      En HTML existen muchos atributos diferentes pero existen dos especialmente
+      usados en CSS: id y class. Estos attributos se representarían en el
+      selector como <strong>#caja1</strong> y <strong>.caja</strong>. Las
+      siguientes cajas son un ejemplo de selectores.
+    </p>
+
+    <div id="caja1" class="caja"></div>
+    <div class="caja"></div>
+    <a href="capitulo-2.html">Ir atrás</a>
+  </body>
+</html>

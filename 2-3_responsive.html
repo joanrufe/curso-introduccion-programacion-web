@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Curso desarrollo web - CSS responsive</title>
+    <meta charset="UTF-8" />
+    <link href="./styles/styles.css"></link>
+    <style>
+      pre {
+        background: darkgray;
+        padding: 10px 0;
+        color: white;
+        max-width: 500px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Diseño responsive</h1>
+    <p>
+      A la hora de diseñar una web tenemos que tener en cuenta que nuestra
+      aplicación podrá ser accedida desde distintos dispositivos. Es importante
+      añadir estilos para que se vea bien en un ordenador de sobremesa, un
+      portátil, un tablet o un móvil. Esto se llama
+      <a
+        href="https://developer.mozilla.org/es/docs/Learn/CSS/CSS_layout/Dise%C3%B1o_receptivo"
+      >
+        diseño responsivo </a
+      >.
+    </p>
+    <p>
+      Para adaptar una web para diferentes dispositivos usamos las
+      <a href="https://developer.mozilla.org/es/docs/CSS/Media_queries">
+        media queries
+      </a>
+      . Estas expresiones en CSS nos permiten aplicar estilos dependiendo del
+      ancho de la pantalla del dispositivo (o la ventana del navegador). Se
+      componen de la palabra clave <em>@media</em> seguido de una serie de
+      condiciones
+    </p>
+    <pre>
+    @media (max-width: 600px) {
+        .barra_lateral {
+            display: none;
+        }
+    }</pre
+    >
+    <a href="capitulo-2.html">Ir atrás</a>
+  </body>
+</html>

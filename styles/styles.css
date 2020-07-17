@@ -1,0 +1,14 @@
+body {
+  max-width: 800px;
+  margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+pre {
+  background: gray;
+  padding: 10px 0;
+  color: white;
+  max-width: 500px;
+  font-weight: bold;
+}

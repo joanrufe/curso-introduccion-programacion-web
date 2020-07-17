@@ -1,0 +1,14 @@
+{
+  "name": "curso-de-introduccion-a-la-programacion-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "serve",
+    "build": "echo This is a static template, there is no bundler or bundling involved!"
+  },
+  "devDependencies": {
+    "serve": "11.3.2"
+  },
+  "keywords": []
+}

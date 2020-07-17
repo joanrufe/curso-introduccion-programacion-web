@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Curso desarrollo web - Eventos</title>
+    <meta charset="UTF-8" />
+    <link href="./styles/styles.css"></link>
+    <style>
+      .img-fondo {
+        width: 100px;
+        height: 100px;
+        background: black;
+      }
+      .img-oculta,
+      .img-oculta img {
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Añadiendo eventos en el DOM</h1>
+    <p>
+      Gracias al
+      <a href="https://developer.mozilla.org/es/docs/Web/Events"
+        >sistema de eventos</a
+      >
+      de javascript podemos añadir interactividad para hacer aplicaciones web
+      complejas y dinámicas. Eventos como hacer click o pasar el puntero por un
+      elemento disparan acciones que podemos disparar mediante callbacks.
+    </p>
+    <p>
+      A continuación un ejemplo de un botón que al hacer click incrementa un
+      contador.
+    </p>
+    <div class="caja">
+      <button id="contador">incrementar</button>
+      <div id="cuenta"></div>
+    </div>
+    <p>
+      Aquí una imagen que solo se muestra al pasar el ratón por encima.
+    </p>
+    <div class="img-oculta">
+      <div class="img-fondo"></div>
+      <img src="https://robohash.org/YZ6.png?set=set1" style="display: none" />
+    </div>
+    <div id="app"></div>
+    <a href="index.html">Ir atrás</a>
+    <script src="src/capitulo-3/DOM-events.js"></script>
+  </body>
+</html>
