@@ -29,3 +29,7 @@ pre {
   height: auto;
   display: block;
 }
+
+img {
+  max-width: calc(100vw - 40px);
+}
